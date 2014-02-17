@@ -21,6 +21,7 @@
 		F0AECD3D18B189D300263C32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AECD1F18B189D300263C32 /* UIKit.framework */; };
 		F0AECD4518B189D300263C32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0AECD4318B189D300263C32 /* InfoPlist.strings */; };
 		F0AECD4718B189D300263C32 /* SOAttitudeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AECD4618B189D300263C32 /* SOAttitudeTests.m */; };
+		F0AECD5118B18A1C00263C32 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AECD5018B18A1C00263C32 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F0AECD4218B189D300263C32 /* SOAttitudeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOAttitudeTests-Info.plist"; sourceTree = "<group>"; };
 		F0AECD4418B189D300263C32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0AECD4618B189D300263C32 /* SOAttitudeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOAttitudeTests.m; sourceTree = "<group>"; };
+		F0AECD5018B18A1C00263C32 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AECD5118B18A1C00263C32 /* CoreMotion.framework in Frameworks */,
 				F0AECD1E18B189D300263C32 /* CoreGraphics.framework in Frameworks */,
 				F0AECD2018B189D300263C32 /* UIKit.framework in Frameworks */,
 				F0AECD1C18B189D300263C32 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		F0AECD1A18B189D300263C32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0AECD5018B18A1C00263C32 /* CoreMotion.framework */,
 				F0AECD1B18B189D300263C32 /* Foundation.framework */,
 				F0AECD1D18B189D300263C32 /* CoreGraphics.framework */,
 				F0AECD1F18B189D300263C32 /* UIKit.framework */,
